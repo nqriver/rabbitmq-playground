@@ -2,7 +2,7 @@ package pl.nqriver.rabbit.consumer;
 
 import java.time.Instant;
 
-public record Measurement(
+public record MeasurementDto(
         double temperature,
         double humidity,
         double pressure,
